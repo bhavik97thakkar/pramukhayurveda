@@ -1,0 +1,105 @@
+.heading {
+    font-family: "Philosopher", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--primary);
+    font-size: 46px;
+    line-height: 34px;
+}
+
+.heading-2 {
+    font-family: "Philosopher", serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(132, 127, 127);
+    font-size: 24px;
+    line-height: 46px;
+}
+
+.subheading {
+    font-family: "Work Sans", serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(53, 53, 53);
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.work-sans {
+    font-family: "Work Sans", serif;
+}
+
+.br-10 {
+    border-radius: 10px;
+}
+
+.text-primary {
+    color: var(--primary);
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.name-border {
+    border-left-style: solid;
+    border-color: var(--primary);
+    ;
+    padding: 0 23px;
+}
+
+.lh-54 {
+    line-height: 54px;
+}
+
+.owl-carousel:not(.nav-arrows-1):not(.show-nav-title) .owl-nav .testtimonial button[class*=owl-] {
+    background-color: #ffffff !important;
+    border-color: #ffffff !important;
+    color: #ffffff !important;
+}
+
+
+.featured-boxes-flat .featured-box .icon-featured {
+    display: inline-block;
+    font-size: 2em;
+    height: 90px;
+    line-height: 90px;
+    padding: 0;
+    width: 90px;
+    margin: -100px 0 -15px;
+    position: relative;
+    top: 0px !important;
+}
+
+.featured-boxes-flat .featured-box .icon-featured {
+    display: inline-block;
+    font-size: 2em;
+    height: 90px;
+    line-height: 90px;
+    padding: 0;
+    width: 90px;
+    margin: -100px 0 -15px;
+    position: relative;
+    top: -40px;
+    border: 2px solid var(--primary) !important;
+}
+
+.owl-nav {
+    display: none;
+}
+
+#footer {
+    border-top: none;
+}
+
+.philosopher {
+    font-family: "Philosopher", serif;
+}
+
+@media only screen and (max-width: 768px) {
+    #header .header-top.header-top-primary {
+        background: var(--primary);
+        border-top-color: var(--primary-100);
+        display: none;
+    }
+}
