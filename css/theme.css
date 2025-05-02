@@ -5874,7 +5874,7 @@ html[dir=rtl] #header .tip-light:before {
 #header .header-top.header-top-primary .header-nav-top ul>li>a:focus,
 #header .header-top.header-top-primary .header-nav-top ul>li.open>a:hover,
 #header .header-top.header-top-primary .header-nav-top ul>li.open>a:focus {
-    background: var(--primary--100)
+    background: #000 !important
 }
 
 #header .header-top.header-top-primary .dropdown-menu {
